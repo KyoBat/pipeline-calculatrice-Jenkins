@@ -47,7 +47,10 @@ pipeline {
         }
         
        stage('branche') {
-            echo 'MultiPipe'
+            agent any
+            steps {
+                echo 'MultiPipe'
+            }
         }
     }
     
