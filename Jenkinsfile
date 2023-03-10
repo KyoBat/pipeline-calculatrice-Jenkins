@@ -50,6 +50,7 @@ pipeline {
             agent any
             steps {
                 echo 'MultiPipe la nouvelle branche rajoutée'
+                ech 'lancement automatique à chaque push'
             }
         }
     }
