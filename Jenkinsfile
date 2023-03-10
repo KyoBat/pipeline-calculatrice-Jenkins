@@ -49,7 +49,7 @@ pipeline {
        stage('branche') {
             agent any
             steps {
-                echo 'MultiPipe'
+                echo 'MultiPipe la nouvelle branche rajoutée'
             }
         }
     }
