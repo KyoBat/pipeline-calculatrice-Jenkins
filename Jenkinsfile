@@ -45,6 +45,9 @@ pipeline {
                 }
             }
         }
+        stage('branche') {
+            echo 'MultiPipe'
+        }
     }
     
 }
